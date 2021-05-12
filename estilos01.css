@@ -1,0 +1,336 @@
+* {
+	box-sizing:border-box;
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	width:1024px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.clear {
+	clear:both;
+}
+
+.logo img {
+	position:relative;
+	width:200px;
+	height:200px;
+	float:left;
+	border:4px solid red;
+}
+
+.quemsomos .texto01 {
+	margin-left:100px;
+	height:100px;
+	width:200px;
+	line-height:23px; 
+	color:red;
+}
+
+.quemsomos .texto02 {
+	position:relative;
+	left:300px;
+	bottom:150px;
+	width:200px;
+	height:150px;
+	color:red;
+}
+
+.banner img {
+	width:75%;
+	height:200px;
+	display:block;
+	border:4px solid red;
+
+}
+
+.menu {
+	display:inline-block;
+	background-color:blue; 
+	width:94.7%;
+	height:50px;
+
+}
+
+.link li {
+	display:inline-block;
+	padding-left:100px;
+	margin-top:15px;
+
+
+}
+
+.link ul li a {
+	color:red;
+	text-decoration: none;
+
+}
+
+.trespares {
+	display:inline-block;
+	width:94.7%;
+	height:300px;
+	background-color:blue;
+	border:1px solid black;
+	padding:25px;
+	display:flex;
+
+}
+
+.content {
+	margin:15px;
+	display:inline-block;
+	width:30.10%;
+	height:200px;
+	padding:25px;
+	background-color:red;
+	border:1px solid black;
+}
+
+.doispares {
+	width:94.7%;
+	display:inline-block;
+	height:300px;
+	background-color:blue;
+	border:1px solid black;
+	display:flex;
+}
+
+.doispares .content02 {
+	width:300px;
+	height:200px;
+	background-color:red;
+	padding:25px;
+	margin:30px;
+	margin-left:110px;
+	margin-top:50px;
+
+	}
+
+	.quemsomos {
+		background-color:blue;
+		width:94.7%;
+	}
+
+	.quemsomos h1 {
+		width:280px;
+		height:100px;
+		background-color:blue;
+		padding:40px;
+		margin-left:200px;
+		color:red;
+	}
+
+	.quemsomos p {
+		position:relative;
+		bottom:30px;
+		width:230px;
+		height:200px;
+		margin-left:200px;
+		line-height:25px;
+		padding-top:15px;
+		display:inline-block;
+		
+	}
+
+	.quemsomos img {
+		display:inline-block;
+		margin-left:400px;
+		margin-bottom:200px;
+		width:350px;
+		height:350px;
+	}
+
+	.continua .rodape {
+		width:94.7%;
+		height:550px;
+
+	}
+
+	.servicos {
+		background-color:blue;
+
+	}
+
+	.servicos h1 {
+		background-color:blue;
+		margin-left:200px;
+		margin-top:7px;
+		padding:20px;
+		color:red;
+
+		
+	}
+
+	.servicos .content0102 {
+		position:relative;
+		top:43.7px;
+		left:130px;
+		width:340.5px;
+		height:200px;
+		background-color:red;
+
+	}
+
+	
+
+	
+	.servicos video {
+		position:relative;
+		left:500px;
+		bottom:150px;
+	}
+
+	.servicos img {
+		width:350px;
+		height:350px;
+		display:inline-block;
+		margin-left:400px;
+		margin-bottom:200px;
+		width:350px;
+		height:350px;
+	}
+
+	form {
+		background-color:blue;
+	}
+
+	.titulo {
+		color:red;
+	}
+
+	input {
+		font-size:20px;
+		background-color:white;
+	}
+
+	input:hover {
+		background-color:lightyellow;
+	}
+
+	input[type=text] {
+		width:100%;
+		padding:12px 20px;
+		margin:8px 0;
+
+		
+
+	}
+
+	input[type=email] {
+		width:100%;
+		padding:12px 20px;
+		margin:8px 0;
+
+	}
+
+	input[type=submit]{
+		width:140px;
+		height:60px;
+		font-weight:bold;
+		color:red;
+	}
+
+	h2 {
+		padding:20px;
+	}
+
+	label {
+		font-size:20px;
+		color:red;
+		
+	}
+
+
+	
+
+	.rodape {
+		/*position:relative;/*
+		/*bottom:2px;*/
+		margin-bottom:12px;
+		background-color:gray;
+		height:460px;
+		width:100%;
+	}
+
+	.parte1 h2 {
+		padding:40px;
+		margin-left:50px;
+		
+	}
+
+	.parte1 p {
+		font-size:20px;
+		padding:5px;
+		margin-left:100px;
+		
+	}
+
+	.parte2 h2 {
+		position:relative;
+		bottom:190px;
+		right:200px;
+		padding-left:860px;
+	}
+
+	.parte2 p {
+		position:relative;
+		bottom:150px;
+		right:200px;
+		margin-left:900px;
+		font-size:20px;
+		padding:5px;
+
+	}
+
+	.final_contato .final{
+		width:100%;
+		height:30px;
+		
+	}
+
+	.final p {
+		position:relative;
+		bottom:80px;
+		color:white;
+		text-align:center;
+		padding:5px;
+		}
+
+	.final_contato .final p {
+		position:relative;
+		bottom:13px;
+		background-color:black;
+
+	}	
+
+	.final_contato .contato02 p {
+		position:relative;
+		bottom:20px;
+		background-color:black;
+		height:30px;
+		color:white;
+		width:94.7%;
+		text-align:center;
+
+
+	}
+
+	.final03 p {
+		position:relative;
+		bottom:80px;
+		background-color:black;
+		height:30px;
+		color:white;
+		text-align:center;
+
+	}
+
+	.ultimo .final_contato .final p {
+		position:relative;
+		bottom:10px;
+	}
+
